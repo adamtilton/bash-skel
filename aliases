@@ -1,0 +1,4 @@
+alias va='vim ~/.bash/aliases; source ~/.bash/aliases'
+alias ls='ls --color=auto'
+
+# vim: ft=sh

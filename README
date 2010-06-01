@@ -1,0 +1,10 @@
+bash-skel:
+        Bash skeleton files.
+
+installation:
+        mkdir ~/src; cd ~/src;
+        git clone git@github.com:noah/bash-skel.git
+        cd; mv .bashrc .bashrc.old; mv .aliases .aliases.old
+        ln ~/src/bash-skel/bashrc .bashrc
+        ln ~/src/bash-skel/aliases .aliases
+        source .bashrc
